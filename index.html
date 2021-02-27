@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_title">Weather App</div>
+        <div class="header_create">Create By: DooPoo</div>
+    </div>
+    <div id="main">
+        <input type="text" placeholder="Enter your city: Ha noi" id="main_input">
+        <button id="main_submit">submit</button>
+    </div>
+
+    <div id="showSearch">
+        <div id="showSearch_header">
+            <div id="showSearch_header-main">
+                <div id="showSearch_header-location">Location: Ha noi,VN</div>
+                <div id="showSearch-header-temperature">23°C</div>
+            </div>
+
+            <div id="showSearch_header-cloud">
+                <div id="cloud_icon">
+                    <img src="http://openweathermap.org/img/w/04d.png">
+                </div>
+                <div id="cloud_description">clear cloud</div>
+            </div>
+        </div>
+
+        <div id="showSearch_main">
+            <div class="showSearch_main-item temperature">Temperature: 23°C</div>
+            <div class="showSearch_main-item perrsure">Perrsure: 1000Pa</div>
+            <div class="showSearch_main-items humidity">Humidity: 70%</div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
