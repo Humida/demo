@@ -1,5 +1,3 @@
-function dog(name) {
-    thisis.name = name;
+function game(name) {
+    this.name = name;
 }
-
-let dog = new dog("lulu");
