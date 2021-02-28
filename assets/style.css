@@ -1,0 +1,115 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+
+/* format */
+
+html {
+    background: rgb(42, 116, 143);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+
+#header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 50px;
+    margin-left: -50px;
+}
+
+#header>.header_title {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(219, 183, 64);
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+#header>.header_create {
+    font-size: 20px;
+    color: wheat;
+}
+
+
+/* main */
+
+#main {
+    left: 50%;
+    margin-top: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#main>input {
+    width: 250px;
+    height: 30px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    outline: none;
+}
+
+#main>button {
+    height: 40px;
+    width: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+#main>button:hover {
+    background: rgb(219, 183, 64);
+}
+
+
+/* Show search */
+
+#showSearch {
+    display: none;
+    background: rgb(7, 39, 100);
+    width: 500px;
+    height: 300px;
+    padding: 5px;
+    color: #fff;
+    position: absolute;
+    margin-top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+#showSearch_header {
+    height: 150px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#showSearch-header-temperature {
+    font-size: 50px;
+    line-height: 100px;
+    margin-left: 50px;
+}
+
+#cloud_icon>img {
+    height: 110px;
+    box-sizing: border-box;
+    margin-top: -20px;
+}
+
+#showSearch_main {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    line-height: 40px;
+}
